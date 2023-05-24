@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Personal Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Anil Maharjan",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.2.3"
+  }
+}

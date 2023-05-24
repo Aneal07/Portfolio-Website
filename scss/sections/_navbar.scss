@@ -1,0 +1,51 @@
+
+
+
+.nav-link{
+    color:rgb(251, 251, 251);
+    font-size: 17px;
+}
+
+
+
+.navbar-nav .nav-item {
+    position: relative;
+    margin-right: 10px; 
+  }
+  
+  .navbar-nav .nav-item:last-child {
+    margin-right:0; 
+  }
+  
+ 
+  .navbar-nav .nav-item:hover .nav-link::before {
+    content: "\2022"; 
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    margin-right: 5px; 
+    color:rgb(251, 251, 251);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+@use 'custom';
+
+
+//COMPONENTS
+@use 'components/button';
+@use 'components/mixins';
+
+//SECTIONS
+@use 'sections/navbar';
+@use 'sections/about';
+@use 'sections/home';
+@use 'sections/portfolio';
+@use 'sections/contact';
+
