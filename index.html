@@ -323,6 +323,15 @@
   document.getElementById("loading-screen").style.display = "none";
   document.getElementById("page-content").style.display = "block";
   }, 2000); // Change 3000 to the number of milliseconds you want the loading screen to display for
+          
+          
+   const navbarToggler = document.querySelector('.navbar-toggler');
+  const navbarMenu = document.querySelector('.navbar-collapse');
+
+  navbarToggler.addEventListener('click', function () {
+    navbarToggler.classList.toggle('active');
+    navbarMenu.classList.toggle('show');
+  });
 
       </script>
     
@@ -331,7 +340,8 @@
 
 
 
-<<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.7.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.7.0/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 </html>
