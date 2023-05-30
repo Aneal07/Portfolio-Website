@@ -1,6 +1,6 @@
 # Portfolio-website
 
-This is a repository for my personal portfolio website showcasing my projects, skills, and experiences. The website is built using HTML, CSS, and JavaScript.
+This is a repository for my personal portfolio website showcasing my projects, skills, and experiences. The website is built using Bootstrap, Sass and JavaScript.
 
 ## Live Demo
 
@@ -19,6 +19,8 @@ You can visit my portfolio website [here](https://aneal07.github.io/Portfolio-we
 
 - HTML5
 - CSS3
+--Bootstrap
+-Sass
 - JavaScript
 
 ## Getting Started
